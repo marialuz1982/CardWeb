@@ -1,0 +1,135 @@
+    @import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
+     :root {
+        --azul: #174578;
+        --color2: #36384C;
+        --color3: #8BA2BB;
+        --color4: #6E8BAB;
+        --fuente: 'Kumbh Sans', sans-serif;
+    }
+    
+    body {
+        padding: 0;
+        margin: 0;
+        background-color: var(--color3);
+        font-family: var(--fuente);
+        font-size: 18px;
+    }
+    
+    .card-container {
+        margin: 170px auto 50px;
+        width: 330px;
+        height: 450px;
+        border-radius: 15px;
+        overflow: hidden;
+        position: relative;
+    }
+    
+    .bubbles {
+        background: url(./img/moroccan-flower-dark.webp);
+        height: 140px;
+    }
+    
+    .foto {
+        position: absolute;
+        top: 75px;
+        left: 35%;
+        overflow: hidden;
+    }
+    
+    .prof-pic {
+        height: 100px;
+        width: 100px;
+        border: 5px solid white;
+        border-radius: 50%;
+    }
+    
+    .data-container {
+        background-color: white;
+        height: 150px;
+        padding: 50px;
+        box-sizing: border-box;
+        text-align: center;
+        padding-bottom: 0px;
+        margin-bottom: opx;
+    }
+    
+    .name {
+        font-weight: 700;
+        color: var(--color2);
+    }
+    
+    .age,
+    .city,
+    .mail {
+        color: var(--color4);
+    }
+    
+    .city,
+    .mail {
+        margin-top: 10px;
+        font-size: 0.8em;
+    }
+    
+    .stats-container {
+        background-color: white;
+        border-top: 2px solid var(--color4);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 50px;
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+    }
+    
+    .statistics {
+        text-align: center;
+    }
+    
+    .cantidad {
+        font-weight: 700;
+        margin-bottom: 10px;
+        color: var(--azul);
+    }
+    
+    .units {
+        font-size: 0.6em;
+        color: var(--color4);
+        letter-spacing: 2px;
+    }
+    
+    .contenido {
+        height: 60px;
+        background-color: white;
+        padding-left: 10px;
+        font-size: 1rem;
+    }
+    
+    .link {
+        width: 30px;
+        height: 30px;
+    }
+    
+    .link:hover,
+    .link:focus,
+    .link:active {
+        box-shadow: 0 10px 10px -10px rgba(28, 48, 93, 0.5);
+        -webkit-transform: scale(1.1);
+        transform: scale(1.2);
+    }
+    
+    a {
+        text-decoration: none;
+        color: var(--color4);
+        /* font-weight: 700; */
+        font-size: 1rem;
+    }
+    
+    a:hover {
+        color: var(--azul);
+    }
+    
+    @media screen and (min-widht: 1440px) {
+        .card-container {
+            width: 350px;
+        }
+    }
